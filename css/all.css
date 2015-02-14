@@ -27,5 +27,53 @@ body {
     display: table;
 }
 .sprite {
-    background: url("..images/clients-small.png");
+    background: url("../images/clients-small.png") no-repeat;
+}
+li {
+    list-style: none;
+}
+.forbes {
+    width: 100px;
+    height: 47px;
+    display: inline-block;
+    background-position: 0 15px;
+}
+.cnet {
+    width: 100px;
+    height: 47px;
+    display: inline-block;
+    background-position: 0 -30px;
+}
+.insider {
+    width: 100px;
+    height: 47px;
+    display: inline-block;
+    background-position: 0 -68px;
+}
+.mashable {
+    width: 100px;
+    height: 47px;
+    display: inline-block;
+    background-position: 0 -104px;
+}
+.nytimes {
+    width: 100px;
+    height: 47px;
+    display: inline-block;
+    background-position: 0 -148px;
+}
+.indeed {
+    width: 100px;
+    height: 47px;
+    display: inline-block;
+    background-position: 0 -187px;
+}
+.yahoo {
+    width: 100px;
+    height: 47px;
+    display: inline-block;
+    background-position: 0 -222px;
+}
+.spriteHead {
+    text-align: center;
 }
