@@ -1,0 +1,31 @@
+body {
+    background: #f8f8f8;
+}
+.navbar-default {
+    border-color: rgba(231, 231, 231, 0);
+}
+.coverImage {
+    background: url("../images/cover.png") no-repeat center center;
+    min-height: 700px;
+}
+.btn-blue {
+    outline: none;
+    padding: 10px 50px;
+    background: #0B90CE;
+    color: #ffffff;
+}
+.btn-blue:hover {
+    color: #ffffff;
+    background: #5CB3DB;
+    transition: all .5s;
+}
+.btn-blue:focus {
+    color: #ffffff;
+}
+.div-center {
+    margin: 0 auto;
+    display: table;
+}
+.sprite {
+    background: url("..images/clients-small.png");
+}
